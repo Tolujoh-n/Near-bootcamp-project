@@ -1,0 +1,13 @@
+[package]
+name = "contracts"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "2.1.0"
+
+[package.metadata]
+near-contract = true
